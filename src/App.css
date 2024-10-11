@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+nav{
+  height: 75px;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  background-color: aliceblue;
+  justify-content: space-around;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.button{
+  all: unset;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: gray;
+}
+.container{
+  width: 100%;
+  margin-top: 10%;
+}
+.pass-contain{
+  width: 30%;
+  background-color: aquamarine;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+input{
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 0px;
+  font-size: 17px;
+}
+#pswd{
+  height: 30px;
+  width: 60%;
+  margin-right: 5px;
+}
